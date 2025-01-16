@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsl(190, 24%, 35%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 600px; /* Increased width for a larger form */
+    padding: 40px; /* Added padding for more spacing */
+    background: hsl(190, 24%, 30%); /* Slightly darker to differentiate */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow for emphasis */
+    border-radius: 10px; /* Smooth corners */
+}
+
+.login-box {
+    width: 100%;
+}
+
+h2 {
+    margin-bottom: 30px; /* Increased spacing for better aesthetics */
+    text-align: center;
+    color: #ffffff;
+    font-size: 2rem; /* Larger heading */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Increased spacing between fields */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-size: 1.2rem; /* Larger label text */
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 15px; /* Larger input fields */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem; /* Increased font size for better readability */
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5); /* Slightly larger focus effect */
+}
+
+.btn {
+    width: 100%;
+    padding: 15px; /* Larger button size */
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem; /* Larger text on the button */
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #4a4b4d;
+}
+
+.alert {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 15px; /* Increased padding */
+    margin-bottom: 20px;
+    border: 1px solid #f5c6cb;
+    border-radius: 8px;
+}
+
+.extra {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.extra a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1.1rem; /* Slightly larger link */
+}
+
+.extra a:hover {
+    text-decoration: underline;
+}

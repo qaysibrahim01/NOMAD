@@ -1,0 +1,53 @@
+.explore-page .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns */
+    gap: 20px; /* Space between the cards */
+    padding: 20px; /* Optional padding for the grid container */
+  }
+  
+  /* Style for individual cards within the explore page */
+  .explore-page .card {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover effect for cards */
+  .explore-page .card:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow for depth */
+  }
+  
+  /* Hover effect for the card title */
+  .explore-page .card__title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 15px 0;
+    text-align: center;
+    transition: color 0.3s ease;
+  }
+  
+  .explore-page .card:hover .card__title {
+    color: #007bff; /* Change text color when hovering over the card */
+  }
+  
+  /* Hover effect for the card description */
+  .explore-page .card__description {
+    font-size: 1em;
+    text-align: center;
+    padding: 0 10px 15px;
+    transition: opacity 0.3s ease;
+  }
+  
+  .explore-page .card:hover .card__description {
+    opacity: 0.8; /* Slightly fade the description text on hover */
+  }
+
+
+  body {
+    
+    background-color: hsl(190, 24%, 35%);
+    
+}
